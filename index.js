@@ -27,8 +27,8 @@ document.getElementById('button').addEventListener('click', function () {
         if(inputword){
             if (inputword.toLowerCase() === myarr[index].toLowerCase()) {
                 count++;
-                alert('dogru');
-            } else { alert('sehv'); }
+                alert('Düzdür.');
+            } else { alert('Səhvdir.'); }
             document.getElementById('word').value="";
             index++;
             if (index !== myarr.length) {
